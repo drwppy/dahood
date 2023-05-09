@@ -1,4 +1,4 @@
-if _G.Settings == EggFarm then
+
     -- // console
 local console = {}
 
@@ -54,7 +54,7 @@ task.spawn(function()
         count = count == #str and 1 or count + 1
 
         rconsolename(table.concat({
-            'dahood egg farm by drippy#0002 and supa#0002',
+            'dahood egg farm',
             'ratios.lol',
             looted .. ' total servers looted'
         }, ('    %s    '):format(str[count])))
@@ -207,4 +207,3 @@ po.ChildAdded:connect(function(a)
         until false
     end
 end)
-end
